@@ -9,7 +9,7 @@
             string carReg = Console.ReadLine();
             while (carReg.Length > 8)
             {
-                string displayMessge = " is not valid" ++ "enter your cars registration: ";
+                Console.WriteLine(" is not valid" + "Enter your cars registration: ");
                 carReg = Console.ReadLine();
             }
             Console.Write("Enter your stay in hours: ");
